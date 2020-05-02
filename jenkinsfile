@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+
+ 
+stages{
+        stage('Build'){
+            steps {
+                bt 'mvn clean package'
+           
+                }
+    }
+
+      
+    }
+}
